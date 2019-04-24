@@ -1,0 +1,44 @@
+/* styling for Folders Component */
+
+.active {
+  color: red !important;
+}
+
+.folders-wrapper {
+  width: 100%;
+}
+
+.folders {
+  list-style-type: none;
+  text-align: center;
+}
+
+.folders li {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.folders a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.back-btn {
+  margin-top: 30px;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer
+}
+
+.folder {
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 15px;
+}

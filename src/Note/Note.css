@@ -1,0 +1,31 @@
+/* styling for Note Component */
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+}
+
+.note {
+  border: 1px solid black;
+  padding: 15px;
+}
+
+.note a {
+  text-decoration: none;
+  color: black;
+}
+
+.note a:hover {
+  color: orangered;
+}
+
+.modified {
+  font-style: italic;
+  margin-top: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.content {
+  margin-top: 15px;
+}
